@@ -1,7 +1,6 @@
+const config = require('woodward').config;
 const server = require('woodward').server;
 
-server.configure({
-  port: 4000
-});
+config.set('port', 4000);
 
 server.run();
