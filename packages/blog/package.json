@@ -1,0 +1,24 @@
+{
+  "name": "woodward",
+  "version": "0.1.0",
+  "description": "A react based blogging system",
+  "main": "index.js",
+  "repository": "https://github.com/matthias-reis/woodward.git",
+  "author": "Matthias Reis <matthias.reis@xing.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node packages/blog/server"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "express": "^4.15.2",
+    "preact": "^8.1.0"
+  },
+  "devDependencies": {
+    "flow": "^0.2.3",
+    "webpack": "^2.4.1"
+  }
+}
