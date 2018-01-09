@@ -8,7 +8,8 @@
   "author": "Matthias Reis <matthias.reis@xing.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node packages/cli/scripts/dev"
+    "start": "node packages/cli/scripts/dev",
+    "test": "jest"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
@@ -16,6 +17,8 @@
     "babel-preset-env": "^1.4.0",
     "babel-preset-stage-1": "^6.24.1",
     "express": "^4.15.2",
+    "jest": "^21.2.1",
+    "morgan": "^1.9.0",
     "preact": "^8.1.0"
   },
   "devDependencies": {

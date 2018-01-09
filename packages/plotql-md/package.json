@@ -1,0 +1,22 @@
+{
+  "name": "plotql-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "front-matter": "^2.3.0",
+    "glob": "^7.1.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2",
+    "to-ast": "^1.0.0"
+  }
+}

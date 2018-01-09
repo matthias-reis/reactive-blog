@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`objectTypeHints() hints complex objects 1`] = `
+Array [
+  Object {
+    "abv": "Float",
+    "attenuation_level": "Int",
+    "boil_volume": Object {
+      "unit": "String",
+      "value": "Int",
+    },
+    "brewers_tips": "String",
+    "contributed_by": "String",
+    "description": "String",
+    "ebc": "Int",
+    "first_brewed": "String",
+    "food_pairing": Array [
+      "String",
+    ],
+    "ibu": "Int",
+    "id": "Int",
+    "image_url": "String",
+    "ingredients": Object {
+      "hops": Array [
+        Object {
+          "add": "String",
+          "amount": Object {
+            "unit": "String",
+            "value": "Float",
+          },
+          "attribute": "String",
+          "name": "String",
+        },
+      ],
+      "malt": Array [
+        Object {
+          "amount": Object {
+            "unit": "String",
+            "value": "Float",
+          },
+          "name": "String",
+        },
+      ],
+      "yeast": "String",
+    },
+    "method": Object {
+      "fermentation": Object {
+        "temp": Object {
+          "unit": "String",
+          "value": "Int",
+        },
+      },
+      "mash_temp": Array [
+        Object {
+          "duration": "Int",
+          "temp": Object {
+            "unit": "String",
+            "value": "Int",
+          },
+        },
+      ],
+      "twist": null,
+    },
+    "name": "String",
+    "ph": "Float",
+    "srm": "Int",
+    "tagline": "String",
+    "target_fg": "Int",
+    "target_og": "Int",
+    "volume": Object {
+      "unit": "String",
+      "value": "Int",
+    },
+  },
+]
+`;
